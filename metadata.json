@@ -1,0 +1,9 @@
+{
+  "name": "A.R.M - Alliance pour le Rassemblement Malien",
+  "short_name": "ARM Mali",
+  "description": "Application officielle de l'Alliance pour le Rassemblement Malien (A.R.M). Plateforme d'adhésion, de don, d'actualités et de gestion pour le renouveau du Mali.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

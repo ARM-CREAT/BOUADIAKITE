@@ -1,0 +1,55 @@
+
+{
+  "id": "com.armmali.app",
+  "name": "Alliance pour le Rassemblement Malien",
+  "short_name": "ARM Mali",
+  "description": "Portail officiel de l'ARM pour le rassemblement et le renouveau du Mali.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#14B53A",
+  "theme_color": "#14B53A",
+  "orientation": "portrait",
+  "categories": ["government", "social", "news"],
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/arm_logo_192/192/192",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://picsum.photos/seed/arm_logo_512/512/512",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Adhérer",
+      "url": "/?section=join",
+      "icons": [{ "src": "https://picsum.photos/seed/join/96/96", "sizes": "96x96" }]
+    },
+    {
+      "name": "Actualités",
+      "url": "/?section=news",
+      "icons": [{ "src": "https://picsum.photos/seed/news/96/96", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://picsum.photos/seed/screenshot1/1080/1920",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Accueil de l'ARM"
+    },
+    {
+      "src": "https://picsum.photos/seed/screenshot2/1920/1080",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Programme Politique"
+    }
+  ]
+}
